@@ -2,9 +2,9 @@
   Portfolio Website - v2.0<br/>
   <a href="" target="_blank">Vairamuthu</a>
 </h2>
-<div align="center">
+
 ![image](https://user-images.githubusercontent.com/88650559/183739567-4bd4abfe-5871-4cfd-b8b2-dadd22186284.png)
-</div>
+
 
 <br/>
 
