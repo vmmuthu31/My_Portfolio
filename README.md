@@ -3,7 +3,7 @@
   <a href="" target="_blank">Vairamuthu</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img.png" />
+    ![image](https://user-images.githubusercontent.com/88650559/183739381-c033d7bc-d76e-412f-a41d-de88d921ef9e.png)
 </div>
 
 <br/>
