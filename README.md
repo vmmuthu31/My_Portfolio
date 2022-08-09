@@ -3,7 +3,7 @@
   <a href="" target="_blank">Vairamuthu</a>
 </h2>
 <div align="center">
-    ![image](https://user-images.githubusercontent.com/88650559/183739381-c033d7bc-d76e-412f-a41d-de88d921ef9e.png)
+![image](https://user-images.githubusercontent.com/88650559/183739567-4bd4abfe-5871-4cfd-b8b2-dadd22186284.png)
 </div>
 
 <br/>
