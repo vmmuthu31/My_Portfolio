@@ -2,12 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import notes from "../../Assets/Projects/notes.png";
 import netflix from "../../Assets/Projects/netflix.jpeg";
-import google from "../../Assets/Projects/google.png";
 import LMS from "../../Assets/Projects/LMS.jpeg";
-import TASK from "../../Assets/Projects/TASK.jpeg";
-import weather from "../../Assets/Projects/weather.jpeg";
 
 function Projects() {
   return (
@@ -77,6 +73,15 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={LMS}
+              isBlog={false}
+              title="LMS"
+              description="LMS Elearn platform, Mainly focused on the Authentication using passport.js and more tools"
+              link="https://github.com/vmmuthu31/LMS"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/src/Assets/Projects/TASK.jpeg"
               isBlog={false}
               title="Task-CrudAPP"
@@ -106,42 +111,41 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={TASK}
-              isBlog={false}
-              title="Task-CrudAPP"
-              description="Crud Application used to manage the Task of the User
-              "
-              link="https://github.com/vmmuthu31/Task-CrudAPP"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={weather}
-              isBlog={false}
-              title="Weather_API_App-using-Express"
-              description="It an Weather Application build using the express get the API from the openweather.org and gives the post request to user"
-              link="https://github.com/vmmuthu31/Weather_API_App-using-Express"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={google}
-              isBlog={false}
-              title="Google-Clone-using-React"
-              description="Google Clone made by using the Goolge API with the famous JS Library framework React"
-              link="https://github.com/vmmuthu31/Google-Clone-using-React"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={notes}
+              imgPath="https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/src/Assets/Projects/notes.png"
               isBlog={false}
               title="NotesApp-using-Node"
-              description="It is a notes application connected to the database which get the notes from the user and display their needs"
+              description="It is a notes application connected to the database which get the notes from the user and display their needs."
               link="https://github.com/vmmuthu31/NotesApp-using-Node"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/calc.png"
+              isBlog={false}
+              title="Calculator in Reactjs"
+              description="A simple Calculator Application built in React js."
+              link="https://u2r4k.csb.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://user-images.githubusercontent.com/88650559/177109813-8d71d61e-6449-45c7-a8a2-081207a96161.png"
+              isBlog={false}
+              title="Tic-Tac-Toe"
+              description="Tic-Tac-Toe Is an X or O gaming app. It was built with Javascript Event Listeners "
+              link="https://vm-tictactoe.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/drumkit.png"
+              isBlog={false}
+              title="Drum Kit"
+              description="Drumkit completely made by using JS and HTML."
+              link="https://vmmuthu31.github.io/Drumkit/"
             />
           </Col>
 
@@ -152,15 +156,6 @@ function Projects() {
               title="NetFlix-Clone"
               description="This project consist of Home page, Sign up page, Browser page in HTML, CSS and JavaScript"
               link="https://github.com/vmmuthu31/netflix-clone"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={LMS}
-              isBlog={false}
-              title="LMS"
-              description="LMS Elearn platform, Mainly focused on the Authentication using passport.js and more tools"
-              link="https://github.com/vmmuthu31/LMS"
             />
           </Col>
         </Row>
