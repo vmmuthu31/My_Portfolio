@@ -19,6 +19,79 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://raw.githubusercontent.com/vmmuthu31/vmmuthu31/main/gdc.png"
+              isBlog={false}
+              title="Generic Decoupled Web Component"
+              description="It should be easy to use these web components in decoupled Drupal projects with API data provided by Drupal Core.
+              It should also be possible to use these same components within Drupal's traditional Twig based templating engine.!"
+              link="https://raw.githubusercontent.com/vmmuthu31"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://user-images.githubusercontent.com/88650559/200388943-3d18bd81-2ecb-441e-92f7-1cecf81e7ae1.jpg"
+              isBlog={false}
+              title="Immovables"
+              description="Immovables is a Decentralised real estate marketplace where you can purchase and sell lands using your Crypto Wallet and know about the Details of the ledger sheets. It creates an peer-to-peer smart contract between the buyer and seller.!"
+              link="https://github.com/Block-Developers/Immovable-web3build"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/vmmuthu31/vmmuthu31/main/Screenshot%20from%202022-08-04%2016-15-59.png"
+              isBlog={false}
+              title="Language Communicator tool"
+              description="It is Frontend language communicator tool developed for the AICTE internship!"
+              link="https://github.com/vmmuthu31/Language-communicator-tool"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLDoUkHHMGXAhMwYOrqgBamD1Zq4mJVuwtjX8kFZ0O81LxzQClR3K9Cj8jqw6hg5zhsrY&usqp=CAU"
+              isBlog={false}
+              title="Farm Tech"
+              description="A tool to help the Tamilnadu farming community to optimize crop production!"
+              link="https://github.com/E-ggle/FarmTech-142"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://user-images.githubusercontent.com/88650559/180494873-43f4d449-20c4-461c-8df4-7dbb133e9960.png"
+              isBlog={false}
+              title="QuickChillAC-Services Website"
+              description="It is real timee project done over to the client in chennai!"
+              link="https://jec-site.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/vmmuthu31/vmmuthu31/main/jedi.png"
+              isBlog={false}
+              title="JEDI-E-Cell"
+              description="It is Entrepreneur site developed for our college site.!"
+              link="https://github.com/vmmuthu31/JEDI-E-Cell"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://user-images.githubusercontent.com/88650559/180494873-43f4d449-20c4-461c-8df4-7dbb133e9960.png"
+              isBlog={false}
+              title="Departmental Website"
+              description="It is our college departmental website built in react components.!"
+              link="https://jec-site.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/Horti.png"
+              isBlog={false}
+              title="HortiPedia"
+              description="Hortipedia is a question and answer website for professional and developing farmers."
+              link="https://github.com/E-ggle/HortiPedia"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://user-images.githubusercontent.com/88650559/180494873-43f4d449-20c4-461c-8df4-7dbb133e9960.png"
               isBlog={false}
               title="Departmental Website"
