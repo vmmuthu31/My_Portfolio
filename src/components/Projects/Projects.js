@@ -29,6 +29,24 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://user-images.githubusercontent.com/88650559/206165691-3cd11787-a98c-40f5-ba7d-bd7395ea105b.png"
+              isBlog={false}
+              title="NFT Media"
+              description="NFT media is an web3 social platform that allows only the subcribed person to enter into the platform. Here Subscription meant that Minting of an NFT in the User Wallet.!"
+              link="https://github.com/vmmuthu31/NFT_media"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://user-images.githubusercontent.com/88650559/206828353-3eb98f48-3e99-4ea8-8e1e-d2e31a73cc53.png"
+              isBlog={false}
+              title="NFT Craft"
+              description="Creating own world in a minecraft like environment. The players progress will be stored . Each new block is a NFT owned by the player.!"
+              link="https://github.com/vmmuthu31/NFT_Craft"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://user-images.githubusercontent.com/88650559/200388943-3d18bd81-2ecb-441e-92f7-1cecf81e7ae1.jpg"
               isBlog={false}
               title="Immovables"
