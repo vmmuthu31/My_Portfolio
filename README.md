@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="" target="_blank">Vairamuthu</a>
+  <a href="https://www.linkedin.com/in/vmmuthu31/" target="_blank">Vairamuthu</a>
   <p>The dynamic personal portfolio for the software developers built in the reactjs. This Web Application consists of my projects, certifications, resume and about page.</p>
 </h2>
 
