@@ -6,6 +6,7 @@ import netflix from "../../Assets/Projects/netflix.jpeg";
 import LMS from "../../Assets/Projects/LMS.jpeg";
 import GSOC from "../../Assets/Projects/GSOC.png";
 import Drum from "../../Assets/Projects/Drum.png";
+import Calc from "../../Assets/Projects/Calc.png";
 
 function Projects() {
   return (
@@ -214,7 +215,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/calc.png"
+              imgPath={Calc}
               isBlog={false}
               title="Calculator in Reactjs"
               description="A simple Calculator Application built in React js."
