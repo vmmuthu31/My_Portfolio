@@ -7,6 +7,7 @@ import LMS from "../../Assets/Projects/LMS.jpeg";
 import GSOC from "../../Assets/Projects/GSOC.png";
 import Drum from "../../Assets/Projects/Drum.png";
 import Calc from "../../Assets/Projects/Calc.png";
+import Weather from "../../Assets/Projects/Weather.png";
 
 function Projects() {
   return (
@@ -185,7 +186,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/src/Assets/Projects/weather.jpeg"
+              imgPath={Weather}
               isBlog={false}
               title="Weather_API_App-using-Express"
               description="It an Weather Application build using the express get the API from the openweather.org and gives the post request to user."
@@ -195,7 +196,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/src/Assets/Projects/google.png"
+              imgPath="https://res.cloudinary.com/practicaldev/image/fetch/s--sB45Op5c--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n09h2m4dd3117acuswuo.png"
               isBlog={false}
               title="Google-Clone-using-React"
               description="Google Clone made by using the Goolge API with the famous JS Library framework React."
@@ -205,7 +206,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/src/Assets/Projects/notes.png"
+              imgPath="https://media.geeksforgeeks.org/wp-content/uploads/20210302135427/20210302135329.gif"
               isBlog={false}
               title="NotesApp-using-Node"
               description="It is a notes application connected to the database which get the notes from the user and display their needs."
