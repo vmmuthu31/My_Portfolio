@@ -8,6 +8,7 @@ import GSOC from "../../Assets/Projects/GSOC.png";
 import Drum from "../../Assets/Projects/Drum.png";
 import Calc from "../../Assets/Projects/Calc.png";
 import Weather from "../../Assets/Projects/Weather.png";
+import Eggle from "../../Assets/Projects/E-ggle.png";
 
 function Projects() {
   return (
@@ -150,7 +151,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/e-ggle.png"
+              imgPath={Eggle}
               isBlog={false}
               title="E-ggle Educational Website"
               description="This website is where you can get popular courses which can improve your skills at the next level."
@@ -159,7 +160,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/Project-Management-System/main/Screenshot%20(44).png"
+              imgPath="https://user-images.githubusercontent.com/96901635/191006996-0c185cdd-5834-47c6-8927-2e7d539866a7.png"
               isBlog={false}
               title="Project Management System"
               description="It was built in MERN stack by using the GraphQL for the API call. It was an Dynamic Application where the user can Create/Read/Update/Delete the content."
@@ -177,7 +178,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/src/Assets/Projects/TASK.jpeg"
+              imgPath="https://user-images.githubusercontent.com/50716272/67515120-0a3a3b00-f66c-11e9-9517-d6917239ea9d.png"
               isBlog={false}
               title="Task-CrudAPP"
               description="Crud Application used to manage the Task of the User."
