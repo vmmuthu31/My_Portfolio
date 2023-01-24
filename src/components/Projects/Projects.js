@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import netflix from "../../Assets/Projects/netflix.jpeg";
 import LMS from "../../Assets/Projects/LMS.jpeg";
+import GSOC from "../../Assets/Projects/GSOC.png";
+import Drum from "../../Assets/Projects/Drum.png";
 
 function Projects() {
   return (
@@ -19,7 +21,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/vmmuthu31/main/gdc.png"
+              imgPath={GSOC}
               isBlog={false}
               title="Generic Decoupled Web Component"
               description="It should be easy to use these web components in decoupled Drupal projects with API data provided by Drupal Core.
@@ -232,7 +234,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/drumkit.png"
+              imgPath={Drum}
               isBlog={false}
               title="Drum Kit"
               description="Drumkit completely made by using JS and HTML."
