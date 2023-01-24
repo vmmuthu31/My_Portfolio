@@ -84,7 +84,7 @@ function Projects() {
               isBlog={false}
               title="QuickChillAC-Services Website"
               description="It is real timee project done over to the client in chennai!"
-              link="https://jec-site.netlify.app/"
+              link="https://github.com/vmmuthu31/QuickChillAC-Services"
             />
           </Col>
           <Col md={4} className="project-card">
