@@ -10,6 +10,8 @@ import Calc from "../../Assets/Projects/Calc.png";
 import Weather from "../../Assets/Projects/Weather.png";
 import Eggle from "../../Assets/Projects/E-ggle.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
+import Ecell from "../../Assets/Projects/Ecell.png";
+import Horti from "../../Assets/Projects/Horti.png";
 
 function Projects() {
   return (
@@ -89,7 +91,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/vmmuthu31/main/jedi.png"
+              imgPath={Ecell}
               isBlog={false}
               title="JEDI-E-Cell"
               description="It is Entrepreneur site developed for our college site.!"
@@ -107,7 +109,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/Horti.png"
+              imgPath={Horti}
               isBlog={false}
               title="HortiPedia"
               description="Hortipedia is a question and answer website for professional and developing farmers."
