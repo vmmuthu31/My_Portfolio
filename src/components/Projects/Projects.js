@@ -9,6 +9,7 @@ import Drum from "../../Assets/Projects/Drum.png";
 import Calc from "../../Assets/Projects/Calc.png";
 import Weather from "../../Assets/Projects/Weather.png";
 import Eggle from "../../Assets/Projects/E-ggle.png";
+import Portfolio from "../../Assets/Projects/Portfolio.png";
 
 function Projects() {
   return (
@@ -79,7 +80,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://user-images.githubusercontent.com/88650559/180494873-43f4d449-20c4-461c-8df4-7dbb133e9960.png"
+              imgPath="https://www.daikinindia.com/sites/default/files/air-purifier-new.jpg"
               isBlog={false}
               title="QuickChillAC-Services Website"
               description="It is real timee project done over to the client in chennai!"
@@ -124,15 +125,6 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/Personal-Blog/master/src/pages/Horti.png"
-              isBlog={false}
-              title="HortiPedia"
-              description="Hortipedia is a question and answer website for professional and developing farmers."
-              link="https://github.com/E-ggle/HortiPedia"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath="https://user-images.githubusercontent.com/88650559/179293522-f79adfc6-2c7d-4a4c-813b-756c7bec0af2.png"
               isBlog={false}
               title="Twitter in Web3"
@@ -142,7 +134,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/My_Portfolio/master/Images/readme-img.png"
+              imgPath={Portfolio}
               isBlog={false}
               title="Dynamic Portfolio"
               description="It is Portfolio website where the developers can modify it according to the user needs."
