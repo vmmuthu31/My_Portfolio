@@ -12,6 +12,7 @@ import Eggle from "../../Assets/Projects/E-ggle.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import Ecell from "../../Assets/Projects/Ecell.png";
 import Horti from "../../Assets/Projects/Horti.png";
+import LCT from "../../Assets/Projects/LCT.png";
 
 function Projects() {
   return (
@@ -64,7 +65,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/vmmuthu31/vmmuthu31/main/Screenshot%20from%202022-08-04%2016-15-59.png"
+              imgPath={LCT}
               isBlog={false}
               title="Language Communicator tool"
               description="It is Frontend language communicator tool developed for the AICTE internship!"
