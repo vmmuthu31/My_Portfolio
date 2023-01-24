@@ -13,6 +13,8 @@ import Portfolio from "../../Assets/Projects/Portfolio.png";
 import Ecell from "../../Assets/Projects/Ecell.png";
 import Horti from "../../Assets/Projects/Horti.png";
 import LCT from "../../Assets/Projects/LCT.png";
+import Napft from "../../Assets/Projects/Napft.png";
+import payant from "../../Assets/Projects/payant.png";
 
 function Projects() {
   return (
@@ -26,6 +28,34 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Napft}
+              isBlog={false}
+              title="Matic-Name-Service"
+              description="Napft is a blockchain-based platform that enables users to Create,buy, sell, and trade digital assets like NFTs. With its innovative technology and user-friendly interface, Napft allows users to access a wide range of digital asset markets, providing a secure and convenient way to store and manage digital assets.!"
+              link="https://frontend-zzbw-9hh8bp409-napft.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={payant}
+              isBlog={false}
+              title="Payant"
+              description="Get payment on Time using Payant with the smart contracts and the swaps under the hood and focusing on providing value for our users.Payant will make client-contractor relationships trustless.
+Transactions are wrapped with legal contracts- so you have peace of mind. If you're unhappy with a client's decision, this makes case resolution simple and quick.!"
+              link="https://payant-v1.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Napft}
+              isBlog={false}
+              title="Napft"
+              description="Napft is a blockchain-based platform that enables users to Create,buy, sell, and trade digital assets like NFTs. With its innovative technology and user-friendly interface, Napft allows users to access a wide range of digital asset markets, providing a secure and convenient way to store and manage digital assets.!"
+              link="https://frontend-zzbw-9hh8bp409-napft.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={GSOC}
