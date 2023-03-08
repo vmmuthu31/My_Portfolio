@@ -33,7 +33,7 @@ function Projects() {
               imgPath="https://user-images.githubusercontent.com/88650559/220404397-184f52a2-616c-46ed-bc12-d6ab77c15725.png"
               isBlog={false}
               title="Agri-Farm"
-              description=" Supply Chain Management (SCM) is an essential business process in all spheres of the economy. SCM uses speciﬁc processes to connect from producer to consumer requirement through a chain. In a BCT(Blockchain Technology) based system, “records are immutable and trusted, eliminating the need for third parties to be involved. Potential farmer-facing impacts include ensuring that farmers receive timely and complete payments through the use of smart contracts and helping farmers to capture real-time data to more effectively manage their crops and harvests.!"
+              description=" Supply Chain Management (SCM) is an essential business process in all spheres of the economy. SCM uses speciﬁc processes to connect from producer to consumer requirement through a chain. !"
               link="https://github.com/vmmuthu31/Agri-Farm"
             />
           </Col>
