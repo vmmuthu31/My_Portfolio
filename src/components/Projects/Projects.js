@@ -30,6 +30,60 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEiYMO71XbKuc6VHPr87FzyRbWb1Ts2egKJ6Pr34b3YEh9Bd9t7Mh3stUJHhad29zCfCVw7rzHFW04NNsgyku8Q5oxlTyme5pO3ISsDYVJ40usID0Q2MXt3arHeoUB65v_bReYQc1CeF7EcYBEcfvW9-0n_Em5oZGes9QyWFgok-eJSsSJlxkDNGEyc-zgQ"
+              isBlog={false}
+              title="CryptoCoffee"
+              description="Earn and Play with Cryptocurrency Deposits in Crypto Coffee. An Web3 Deposit Game Application!"
+              link="https://web3-bidding.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEjqCAJ-1BwAF5ajGFBqjtJ6ODWJcVqZy1yqpjEyxJFVn0Tvx58WFZm1vHw7D8hbwub3gPgYTlZWx2_2_KVUgaS0CvdCbOZ_BKvTwGKWmbyhhCB68ZfWe737A34uvxTKJrx3zMhssbedUqM0sKsQb-Hisp_MeY0IRNHaCku_vdZRTaHKeJCwjHhb5Lzyogo"
+              isBlog={false}
+              title="AutoStark"
+              description=" AutomateChain: Your On-Chain Automation Tool. Effortlessly Automate Transactions and Governance Votes for Seamless On-Chain Operations.!"
+              link="https://auto-stark.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEg4y4Pe7o4yznzxRsuJEg6bYIiP4qoWv3ZUHse7rdKglURwH1ZcTnC_O5Qxl7up3IlC5M0im4Xfa7Y47clw-JKJtCgAj5yfA2KdinRotJN_DUx5g8-pHZtg9rN1kOJrDb0RjfzzzZXIJxLWwVxEYmAvXXrikzzQUCs3ZF24w0N9F2CrLD3AEHh6cJjzEtE"
+              isBlog={false}
+              title="ZkConnect"
+              description=" An Social Hiring Platform helps the recruiter and the candidate to make the hiring easy!"
+              link="https://zk-connect.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEgatAAJknIoSeyl3zHtTrx5l3MNleryW9jfiAy07QxStyUMXmV1m6nQOOZ9-EANOb9vFVkfIheiPppFDI1FzaVPadjByQda90O-q6OHB05RUCbotcbwGq7zSNHM8RWVkKJQ0XQOeeeNSFh69nDySkIW3RFlcEz48SQrW5pHqDk5OgFDI49x1zMkpxkTbdk"
+              isBlog={false}
+              title="Aramvellum"
+              description="An NGO website for the Indian actor, Social Activist and former politician who primarily works in Tamil television.!"
+              link="https://aramvellum.in/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEirEDz5TuPE9g1XAfrekKh8luXx5MJUEWRX9zgB7y7iS0tclE6Kz6g2C81mKA-0l4HcDNhQqdTEXEKkn0NR8KnPjyXXvhiBL67MVy0Icf4j6rM40reL3JB9aPzio_CQhywHe4Lilv4ZVXeTMbECzN6bO0CVc9RyrLMCKfEX_SWRPP0GrmGrOErJyut9WVE"
+              isBlog={false}
+              title="Gryffindors"
+              description="It is our company website that we developed for freelancing purposes."
+              link="https://gryffindors.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEhFjEL4ZQQo9T6w8KLeC1hcpeMLTJuphSHa5MEtu75SLUfUYyP240h_q258A0va1mGb_ahKofzbbUK1eXhV0IuwWAzjxMH48BTvm82xdiP3p5LJTEccFCAM5QA0POazbBNLon8oKBkgv4YmRoBWyTvCQhlcYYiYwI7hCdpAVbWhKYa0eNwxGLaK0jz6zpg"
+              isBlog={false}
+              title="ZKClaims"
+              description="Claim your identity or proof of work that you build on the Hackathon."
+              link="https://github.com/vmmuthu31/ZKClaims"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://user-images.githubusercontent.com/88650559/220404397-184f52a2-616c-46ed-bc12-d6ab77c15725.png"
               isBlog={false}
               title="Agri-Farm"
