@@ -30,6 +30,15 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEiye4pV-VTzimqia2ScMbMWR52WxKUx2rvOO2vvV58aASjuPNplkQuVS4ySTYoEiItimIvexKQEg2M5QwCM2k8npKI60RnvLx7G0HyKA9iuCWP4GBGpSgwNEYGvgA9xzm-gBe92L0XtV0R2vcbtWsee_HJ797H9bg1-2piMNRkVtEoPw4DU5k_b-ZnJZSw"
+              isBlog={false}
+              title="SmartID"
+              description="Simplify Web3 transactions with Smart ID. Use your mobile number for secure, hassle-free transfers. Enjoy peace of mind with biometric authentication.!"
+              link="https://github.com/vmmuthu31/SmartID"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEiYMO71XbKuc6VHPr87FzyRbWb1Ts2egKJ6Pr34b3YEh9Bd9t7Mh3stUJHhad29zCfCVw7rzHFW04NNsgyku8Q5oxlTyme5pO3ISsDYVJ40usID0Q2MXt3arHeoUB65v_bReYQc1CeF7EcYBEcfvW9-0n_Em5oZGes9QyWFgok-eJSsSJlxkDNGEyc-zgQ"
               isBlog={false}
               title="CryptoCoffee"
