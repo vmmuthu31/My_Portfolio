@@ -30,6 +30,60 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEjf_wP9C5FGn5fE_1do-Lr92QrSifxUn8PsE8OIr6fLFgCI7DKVyushppZCvnlDr5ejP5WrnEQJOgC3NyEIsE5F_HPdglAxQejVVdtV31nvneBdhVq1PQe0UBy_VGi8U2mXzT7tYqrCK0JgkccWACDqTIEciR6TqGMnl-XL_XX8unW5-vZIAfZYEP4Rdh4"
+              isBlog={false}
+              title="Starknet HackerHouse"
+              description="Starknet Hacker House is a event management website that aims to bring together developers, designers, and entrepreneurs to build innovative projects on the Starknet chain. The website provides information about the event, the schedule, the project, the speakers, and the sponsors.!"
+              link="https://www.starknethackerhouse.io/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWj9xvFqGg8Nc4Ww2YCT-EunomacJTe-ci63HnuYSvweQpThXd5o8t_8PGX50yL9P_V8OaHqHMVFphK_TbVXDcxgO-eAbFFpXk7ONOzkX9fgkEO_glVQPq4G88lcK14NjchJJi80v26ACC-CMFDZEBrkXkeSq74lN00vo_FbtnZHqWi7_WF_OBFHEOP6Q/s320/Screenshot%202024-06-04%20at%2011.24.34%E2%80%AFPM.png"
+              isBlog={false}
+              title="GigsHub"
+              description="GigsHub  is a blockchain-based platform designed to revolutionize the job market by enhancing transparency, security, and efficiency in recruitment processes. It aims to bridge the gap between job seekers and employers, ensuring a seamless, fair, and privacy-focused job search experience.!"
+              link="https://gigshub.xyz/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://private-user-images.githubusercontent.com/111880621/288664171-94a4d6fd-8de3-4436-8844-7d5e5a823e7a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc1MjM3NTgsIm5iZiI6MTcxNzUyMzQ1OCwicGF0aCI6Ii8xMTE4ODA2MjEvMjg4NjY0MTcxLTk0YTRkNmZkLThkZTMtNDQzNi04ODQ0LTdkNWU1YTgyM2U3YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwNFQxNzUwNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hZmEyYTI3NzlmNTk3NGE2YjIyOTc2OWE3Y2JjNWQ4ZmZjMDc0Zjc1ZmM2YTIyMDI5ODRkNDg0OTcyNGEyOGU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qM0Fo38PQoUzFJKLio1ghNogguT3nkomrBLNAPqYIZc"
+              isBlog={false}
+              title="Starkshoot"
+              description="Redefining Gaming Excellence on the Starknet Chain.multiplayer real-world onchain gaming experience that pushes the boundaries of excitement and innovation. Powered by the Starknet chain, StarkShoot is not just a game; it's a journey into the future of gaming.!"
+              link="https://github.com/vmmuthu31/Starkshoot"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://private-user-images.githubusercontent.com/88650559/320256858-5e1ca38f-2880-4028-b78a-2cad4c540e41.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc1MjM2NzEsIm5iZiI6MTcxNzUyMzM3MSwicGF0aCI6Ii84ODY1MDU1OS8zMjAyNTY4NTgtNWUxY2EzOGYtMjg4MC00MDI4LWI3OGEtMmNhZDRjNTQwZTQxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA0VDE3NDkzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxNTcyODkwNDAwMTc3YjYwYmU4OTAxMzAyMzg5MWVhNDViMTViMmFlMzMwOGYxOTQyZmI2Zjc2NjhjMGIwMzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.fe0yS-ifNtM175_z4ovrDI7q4mAdo00q1CjuVULKnLs"
+              isBlog={false}
+              title="PnB MetLife Insurance Dapp"
+              description="PnB MetLife Insurance Dapp is a decentralized application that allows users to buy insurance policies using cryptocurrency. The application is built on the Ethereum blockchain and uses smart contracts to automate the insurance process.!"
+              link="https://github.com/vmmuthu31/PNB-MetLife"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/vmmuthu31/_Ezpay/main/public/EzpayLogo.png"
+              isBlog={false}
+              title="EzPay"
+              description="Digitizing Red Envelopes implementing Web3 is our core motto. We created a dApp that can enable users send, receive red envelopes across your favorite chains.!"
+              link="https://github.com/vmmuthu31/_Ezpay"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgt_7Bs-WJsbwaXtzDxMWrMBPgIjqjndxi2xH0iUiVmn1eTG1GZuLn4mqhhTbB13-xFxs5eQc9NXxv-IU_OObEKTXIUArjLJHtthqKnUoWbp86QnLsm163OYgW-a5h13VMs94XvoOFrDX-bWq_1a0z-yMBYE_yity1_OCNj43lwe1KUiVNHZImieYfSU_4/s320/WhatsApp%20Image%202024-06-04%20at%2023.05.57.jpeg"
+              isBlog={false}
+              title="AMS JEC"
+              description="AMS JEC is an Attendance Management System for the students of JEC. It is a Mobile application that helps the students to mark their attendance and view their attendance report.!"
+              link="https://github.com/vmmuthu31/AMS-JEC-APP"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEiye4pV-VTzimqia2ScMbMWR52WxKUx2rvOO2vvV58aASjuPNplkQuVS4ySTYoEiItimIvexKQEg2M5QwCM2k8npKI60RnvLx7G0HyKA9iuCWP4GBGpSgwNEYGvgA9xzm-gBe92L0XtV0R2vcbtWsee_HJ797H9bg1-2piMNRkVtEoPw4DU5k_b-ZnJZSw"
               isBlog={false}
               title="SmartID"
