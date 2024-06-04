@@ -48,7 +48,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://private-user-images.githubusercontent.com/111880621/288664171-94a4d6fd-8de3-4436-8844-7d5e5a823e7a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc1MjM3NTgsIm5iZiI6MTcxNzUyMzQ1OCwicGF0aCI6Ii8xMTE4ODA2MjEvMjg4NjY0MTcxLTk0YTRkNmZkLThkZTMtNDQzNi04ODQ0LTdkNWU1YTgyM2U3YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwNFQxNzUwNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hZmEyYTI3NzlmNTk3NGE2YjIyOTc2OWE3Y2JjNWQ4ZmZjMDc0Zjc1ZmM2YTIyMDI5ODRkNDg0OTcyNGEyOGU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qM0Fo38PQoUzFJKLio1ghNogguT3nkomrBLNAPqYIZc"
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEhyOyTjiG8lXCbAd8GOZxradP-dqJ9p9wI5V2j29fI9EI_7KHpcljw0WW6bzJuyPHo-_4rqnNBMF8p_8ldSsKCrELHebtYxp44xgqQZFbX8bXPG9xzOsr3lL4Am4hvmlsARThK5z1n4FKF2_w8czx0OgUuNZoftMvO3JbnIbEwH1W54FfsWwOJGSgBdrS0"
               isBlog={false}
               title="Starkshoot"
               description="Redefining Gaming Excellence on the Starknet Chain.multiplayer real-world onchain gaming experience that pushes the boundaries of excitement and innovation. Powered by the Starknet chain, StarkShoot is not just a game; it's a journey into the future of gaming.!"
@@ -57,7 +57,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://private-user-images.githubusercontent.com/88650559/320256858-5e1ca38f-2880-4028-b78a-2cad4c540e41.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc1MjM2NzEsIm5iZiI6MTcxNzUyMzM3MSwicGF0aCI6Ii84ODY1MDU1OS8zMjAyNTY4NTgtNWUxY2EzOGYtMjg4MC00MDI4LWI3OGEtMmNhZDRjNTQwZTQxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA0VDE3NDkzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxNTcyODkwNDAwMTc3YjYwYmU4OTAxMzAyMzg5MWVhNDViMTViMmFlMzMwOGYxOTQyZmI2Zjc2NjhjMGIwMzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.fe0yS-ifNtM175_z4ovrDI7q4mAdo00q1CjuVULKnLs"
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEiMXGLlgpBBHxQkuTZSjEp9zJT8KzRrJ7s1Ua7M1dDxnk9RagY0HrOkXPNZZjkOkfS0UoG84jqgWcYu7yBTW7wvOWn7ux9JVQDTZmoFysKCzawwDDzLMtu0tXQDIBml9OMpkNfhIAPkz1Evs-siAQkUcwpwVfctlL6i3Geym325ZGiDHhE2IjbV51KiLoI"
               isBlog={false}
               title="PnB MetLife Insurance Dapp"
               description="PnB MetLife Insurance Dapp is a decentralized application that allows users to buy insurance policies using cryptocurrency. The application is built on the Ethereum blockchain and uses smart contracts to automate the insurance process.!"
