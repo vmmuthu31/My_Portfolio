@@ -1,10 +1,7 @@
-import { createContext } from "react";
+import React, { createContext, Suspense } from "react";
 import useTheme from "./useTheme";
-import dynamic from "next/dynamic";
 
-const NavBar = dynamic(() => import("./Navbar"), {
-  ssr: false,
-});
+const NavBar = React.lazy(() => import("./Navbar"));
 
 export const ThemeContext = createContext();
 export default function Layout(props) {
@@ -12,7 +9,9 @@ export default function Layout(props) {
 
   return (
     <ThemeContext.Provider value={useTheme()}>
-      <NavBar />
+      <Suspense fallback={<div>Loading...</div>}>
+        <NavBar />
+      </Suspense>
       <main>{children}</main>
     </ThemeContext.Provider>
   );
