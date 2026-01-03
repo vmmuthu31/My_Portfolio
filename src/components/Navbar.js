@@ -12,7 +12,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { MdWork } from "react-icons/md";
-import { BsMicFill } from "react-icons/bs";
+import { BsMicFill, BsAward } from "react-icons/bs";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -58,7 +58,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome /> Home
+                <AiOutlineHome className="nav-icon" /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -68,7 +68,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser /> About
+                <AiOutlineUser className="nav-icon" /> About
               </Nav.Link>
             </Nav.Item>
 
@@ -78,7 +78,7 @@ function NavBar() {
                 to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <MdWork /> Work
+                <MdWork className="nav-icon" /> Work
               </Nav.Link>
             </Nav.Item>
 
@@ -88,7 +88,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen /> Projects
+                <AiOutlineFundProjectionScreen className="nav-icon" /> Projects
               </Nav.Link>
             </Nav.Item>
 
@@ -98,7 +98,7 @@ function NavBar() {
                 to="/sessions"
                 onClick={() => updateExpanded(false)}
               >
-                <BsMicFill /> Talks
+                <BsMicFill className="nav-icon" /> Talks
               </Nav.Link>
             </Nav.Item>
 
@@ -108,7 +108,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument /> Resume
+                <CgFileDocument className="nav-icon" /> Resume
               </Nav.Link>
             </Nav.Item>
 
@@ -118,7 +118,7 @@ function NavBar() {
                 to="/certificates"
                 onClick={() => updateExpanded(false)}
               >
-                Certs
+                <BsAward className="nav-icon" /> Certs
               </Nav.Link>
             </Nav.Item>
 
