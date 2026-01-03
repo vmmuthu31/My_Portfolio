@@ -27,8 +27,8 @@ function AboutCard() {
           <ul>
             <li className="about-activity">
               <ImPointRight /> Won{" "}
-              <span className="purple">24+ Hackathons</span> (ETHIndia,
-              Starknet, APTOS, Aleo)
+              <span className="purple">24+ Hackathons</span> (EthGlobal,
+              ETHIndia, Starknet, APTOS, Aleo)
             </li>
             <li className="about-activity">
               <ImPointRight /> Trained{" "}
@@ -36,7 +36,7 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight />{" "}
-              <span className="purple">1500+ GitHub contributions</span> in open
+              <span className="purple">6000+ GitHub contributions</span> in open
               source
             </li>
             <li className="about-activity">

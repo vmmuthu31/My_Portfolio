@@ -3,7 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import { GrCertificate } from "react-icons/gr";
 import { CgGitFork } from "react-icons/cg";
 import Button from "react-bootstrap/Button";
 import {
@@ -29,11 +28,6 @@ function NavBar() {
   }
 
   window.addEventListener("scroll", scrollHandler);
-  const certi = {
-    marginBottom: "2px",
-    background: "white",
-    fontSize: "1.1em",
-  };
 
   return (
     <Navbar
@@ -44,13 +38,11 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h1
-            style={{ color: "#white", marginTop: "10px" }}
-            className="img-fluid logo"
-            alt="brand"
+          <span
+            style={{ color: "white", fontSize: "1.2em", fontWeight: "600" }}
           >
-            My Portfolio
-          </h1>
+            VM
+          </span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -66,7 +58,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -76,7 +68,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser /> About
               </Nav.Link>
             </Nav.Item>
 
@@ -86,7 +78,7 @@ function NavBar() {
                 to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <MdWork style={{ marginBottom: "2px" }} /> Experience
+                <MdWork /> Work
               </Nav.Link>
             </Nav.Item>
 
@@ -96,10 +88,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                <AiOutlineFundProjectionScreen /> Projects
               </Nav.Link>
             </Nav.Item>
 
@@ -109,7 +98,7 @@ function NavBar() {
                 to="/sessions"
                 onClick={() => updateExpanded(false)}
               >
-                <BsMicFill style={{ marginBottom: "2px" }} /> Sessions
+                <BsMicFill /> Talks
               </Nav.Link>
             </Nav.Item>
 
@@ -119,7 +108,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument /> Resume
               </Nav.Link>
             </Nav.Item>
 
@@ -129,17 +118,18 @@ function NavBar() {
                 to="/certificates"
                 onClick={() => updateExpanded(false)}
               >
-                <GrCertificate color="white" style={certi} /> Certificates
+                Certs
               </Nav.Link>
             </Nav.Item>
+
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/vmmuthu31/My_Portfolio"
+                href="https://github.com/vmmuthu31"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <CgGitFork style={{ fontSize: "1.1em" }} />{" "}
+                <AiFillStar style={{ fontSize: "1em" }} />
               </Button>
             </Nav.Item>
           </Nav>
