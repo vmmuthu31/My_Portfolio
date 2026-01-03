@@ -19,47 +19,34 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hello! I'm Vairamuthu, a passionate Full Stack Developer with
-              extensive experience in building scalable and innovative web
-              applications. My journey in the tech world has been marked by
-              continuous learning and a deep enthusiasm for coding and
-              development.
-              <br />
-              <br />I am proficient in programming languages like
-              <i>
-                <b className="purple"> C, JavaScript, and Python. </b>
-              </i>
+              I'm a <b className="purple">Web3 Full Stack Developer</b>{" "}
+              currently building governance infrastructure at{" "}
+              <b className="purple">Polkassembly</b> for the Polkadot ecosystem.
               <br />
               <br />
-              My primary areas of interest include developing cutting-edge
-              &nbsp;
+              Started from a third-tier college, I've won{" "}
+              <b className="purple">24+ hackathons</b>, contributed to{" "}
+              <b className="purple">Google Summer of Code</b>, and trained over{" "}
+              <b className="purple">500+ students</b> in blockchain development.
+              <br />
+              <br />
+              My expertise spans{" "}
               <i>
                 <b className="purple">
-                  Blockchain technologies, Web Applications, and Mobile
-                  Applications
+                  Solidity, Cairo, React, Next.js, NestJS, and PostgreSQL
                 </b>
               </i>
-              . I am also deeply invested in the world of
+              . I'm passionate about{" "}
               <i>
                 <b className="purple">
-                  {" "}
-                  Decentralized Finance (DeFi) and NFTs.{" "}
+                  on-chain governance, DeFi automation, and Web3 identity
                 </b>
               </i>
+              .
               <br />
-              <br />I thrive on leveraging technologies like{" "}
-              <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  modern JavaScript frameworks and libraries
-                </b>
-              </i>
-              , such as
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-              , to create impactful solutions.
+              <br />
+              When I'm not coding, I'm either mentoring at hackathons or
+              speaking at tech conferences across India and internationally.
             </p>
           </Col>
           <Col md={4} style={{ margin: "0px" }} className="myAvtar">
