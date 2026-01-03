@@ -30,7 +30,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://polkassembly.io/static/media/pa-logo.e1f18acb.svg"
+              imgPath="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib7v7rCs47b1GdUNkCi2OoyP5hVC4uUvUr4uknM6rsZh2_Py2cDByNbHRHOyhsBc2ybIsieL5ypcbY9iI7VcNdLsM7ARUZ5AupIKYfJHJvObAJpuxERolNVbqXSHh9CcFENdSYkKiJolM9ZBO80mcvnDD_RHgez6Y3Imd8FV89jyK_AuT8BoMC-lYF5Jw/s320/polkassembly.png"
               isBlog={false}
               title="Polkassembly Governance Platform"
               description="Contributed to the core governance product building Activity Feed, Subscription System, Delegation Dashboard, and Bounties. Deep integration with Polkadot API, Substrate, and People's Identity API for on-chain governance workflows."
@@ -39,7 +39,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEjf_wP9C5FGn5fE_1do-Lr92QrSifxUn8PsE8OIr6fLFgCI7DKVyushppZCvnlDr5ejP5WrnEQJOgC3NyEIsE5F_HPdglAxQejVVdtV31nvneBdhVq1PQe0UBy_VGi8U2mXzT7tYqrCK0JgkccWACDqTIEciR6TqGMnl-XL_XX8unW5-vZIAfZYEP4Rdh4"
+              imgPath="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTpWVMqi19MKvHjpcNDo3zoWeEr_ienI6OTqdAcBVgv3zx7c68g9-BGfxdOyWWp4kIIDfSvkZ55Wx8-Bmc_Mmxt5cAQo1CrYoQ8pcpwvO8usXFAnqPuILueDo9lXtYFS_w2kohFzfgUEH3PVKGSp3A8dZnVUoDa4hxHyAchEG2PFfbOTnM89zxVCwYYdE/s320/intentify.png"
               isBlog={false}
               title="Intentify - AI DeFi Automation"
               description="Built an AI-powered cross-chain DeFi automation platform. Turned natural language user commands into compliant, gasless strategies using Circle CCTP, 1inch, Zircuit with modular execution pipelines and safety guards."
@@ -48,7 +48,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEhyOyTjiG8lXCbAd8GOZxradP-dqJ9p9wI5V2j29fI9EI_7KHpcljw0WW6bzJuyPHo-_4rqnNBMF8p_8ldSsKCrELHebtYxp44xgqQZFbX8bXPG9xzOsr3lL4Am4hvmlsARThK5z1n4FKF2_w8czx0OgUuNZoftMvO3JbnIbEwH1W54FfsWwOJGSgBdrS0"
+              imgPath="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiOyUjepY8A_GwCCGmsxgdDnX5HiNl2mKsjORgEwFngrNawxYpLKvX95yW13afg9K5ybXXAtQEjMCO8mNciwgZKIulJe9TLOGGx-XWkcN-yAvfI_KaqzlLwp7xV07a6O5A3wLwFSpTDq8nopXae4nX4z9_usc4ZlbzokG5aCGho5_28YLDIj3qYoJnYYM/s320/proofofpersonhood.png"
               isBlog={false}
               title="Proof of Personhood"
               description="Built a Web3 identity verification platform enabling decentralized proof of personhood. Integrated blockchain wallets and cryptographic attestations to ensure unique identity generation without compromising privacy."
