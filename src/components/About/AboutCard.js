@@ -8,33 +8,47 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Vairamuthu</span> from{" "}
+            Hi Everyone, I am <span className="purple">Vairamuthu M</span> from{" "}
             <span className="purple">Chennai, India.</span>
-            <br />I am a Full Stack Developer with a passion for creating
-            innovative and scalable applications.
-            <br />I have completed my Bachelor's degree in Computer Science
-            Engineering from Jaya Engineering College.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I'm a <span className="purple">Web3 Full Stack Developer</span>{" "}
+            currently working at <span className="purple">Polkassembly</span>,
+            building governance infrastructure for the Polkadot ecosystem.
+            <br />
+            <br />I graduated in 2024 from Jaya Engineering College (CGPA: 8.42)
+            and am pursuing my Master's degree remotely. I was a{" "}
+            <span className="purple">Google Summer of Code 2022</span>{" "}
+            contributor and mentored in 2023.
+            <br />
+            <br />
+            Apart from coding, some things I'm passionate about:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Participating in Hackathons
+              <ImPointRight /> Won{" "}
+              <span className="purple">24+ Hackathons</span> (ETHIndia,
+              Starknet, APTOS, Aleo)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Mentoring and Teaching
+              <ImPointRight /> Trained{" "}
+              <span className="purple">500+ students</span> in Web3 & Blockchain
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring Blockchain Technology
+              <ImPointRight />{" "}
+              <span className="purple">1500+ GitHub contributions</span> in open
+              source
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling and Discovering New Places
+              <ImPointRight /> Guest speaker at NIT Rourkela, TOKEN 2049
+              Singapore
             </li>
           </ul>
 
-          <p className="purple">"Live the life you love!" </p>
-          <footer className="blockquote-footer">Vairamuthu</footer>
+          <p className="purple">
+            "From a third-tier college to building the Web3 future!"{" "}
+          </p>
+          <footer className="blockquote-footer">Vairamuthu M</footer>
         </blockquote>
       </Card.Body>
     </Card>

@@ -30,10 +30,37 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://polkassembly.io/static/media/pa-logo.e1f18acb.svg"
+              isBlog={false}
+              title="Polkassembly Governance Platform"
+              description="Contributed to the core governance product building Activity Feed, Subscription System, Delegation Dashboard, and Bounties. Deep integration with Polkadot API, Substrate, and People's Identity API for on-chain governance workflows."
+              link="https://polkassembly.io/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEjf_wP9C5FGn5fE_1do-Lr92QrSifxUn8PsE8OIr6fLFgCI7DKVyushppZCvnlDr5ejP5WrnEQJOgC3NyEIsE5F_HPdglAxQejVVdtV31nvneBdhVq1PQe0UBy_VGi8U2mXzT7tYqrCK0JgkccWACDqTIEciR6TqGMnl-XL_XX8unW5-vZIAfZYEP4Rdh4"
+              isBlog={false}
+              title="Intentify - AI DeFi Automation"
+              description="Built an AI-powered cross-chain DeFi automation platform. Turned natural language user commands into compliant, gasless strategies using Circle CCTP, 1inch, Zircuit with modular execution pipelines and safety guards."
+              link="https://github.com/vmmuthu31/intentify"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEhyOyTjiG8lXCbAd8GOZxradP-dqJ9p9wI5V2j29fI9EI_7KHpcljw0WW6bzJuyPHo-_4rqnNBMF8p_8ldSsKCrELHebtYxp44xgqQZFbX8bXPG9xzOsr3lL4Am4hvmlsARThK5z1n4FKF2_w8czx0OgUuNZoftMvO3JbnIbEwH1W54FfsWwOJGSgBdrS0"
+              isBlog={false}
+              title="Proof of Personhood"
+              description="Built a Web3 identity verification platform enabling decentralized proof of personhood. Integrated blockchain wallets and cryptographic attestations to ensure unique identity generation without compromising privacy."
+              link="https://github.com/vmmuthu31/proof-of-personhood"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEjf_wP9C5FGn5fE_1do-Lr92QrSifxUn8PsE8OIr6fLFgCI7DKVyushppZCvnlDr5ejP5WrnEQJOgC3NyEIsE5F_HPdglAxQejVVdtV31nvneBdhVq1PQe0UBy_VGi8U2mXzT7tYqrCK0JgkccWACDqTIEciR6TqGMnl-XL_XX8unW5-vZIAfZYEP4Rdh4"
               isBlog={false}
               title="Starknet HackerHouse"
-              description="Starknet Hacker House is a event management website that aims to bring together developers, designers, and entrepreneurs to build innovative projects on the Starknet chain. The website provides information about the event, the schedule, the project, the speakers, and the sponsors.!"
+              description="Starknet Hacker House event management website bringing together developers, designers, and entrepreneurs to build innovative projects on the Starknet chain."
               link="https://www.starknethackerhouse.io/"
             />
           </Col>
@@ -42,7 +69,7 @@ function Projects() {
               imgPath="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWj9xvFqGg8Nc4Ww2YCT-EunomacJTe-ci63HnuYSvweQpThXd5o8t_8PGX50yL9P_V8OaHqHMVFphK_TbVXDcxgO-eAbFFpXk7ONOzkX9fgkEO_glVQPq4G88lcK14NjchJJi80v26ACC-CMFDZEBrkXkeSq74lN00vo_FbtnZHqWi7_WF_OBFHEOP6Q/s320/Screenshot%202024-06-04%20at%2011.24.34%E2%80%AFPM.png"
               isBlog={false}
               title="GigsHub"
-              description="GigsHub  is a blockchain-based platform designed to revolutionize the job market by enhancing transparency, security, and efficiency in recruitment processes. It aims to bridge the gap between job seekers and employers, ensuring a seamless, fair, and privacy-focused job search experience.!"
+              description="Blockchain-based platform revolutionizing recruitment with enhanced transparency, security, and efficiency. Bridges job seekers and employers with privacy-focused experience."
               link="https://gigshub.xyz/"
             />
           </Col>
@@ -51,7 +78,7 @@ function Projects() {
               imgPath="https://blogger.googleusercontent.com/img/a/AVvXsEhyOyTjiG8lXCbAd8GOZxradP-dqJ9p9wI5V2j29fI9EI_7KHpcljw0WW6bzJuyPHo-_4rqnNBMF8p_8ldSsKCrELHebtYxp44xgqQZFbX8bXPG9xzOsr3lL4Am4hvmlsARThK5z1n4FKF2_w8czx0OgUuNZoftMvO3JbnIbEwH1W54FfsWwOJGSgBdrS0"
               isBlog={false}
               title="Starkshoot"
-              description="Redefining Gaming Excellence on the Starknet Chain.multiplayer real-world onchain gaming experience that pushes the boundaries of excitement and innovation. Powered by the Starknet chain, StarkShoot is not just a game; it's a journey into the future of gaming.!"
+              description="Multiplayer real-world onchain gaming experience on Starknet. Redefining gaming excellence with innovative blockchain-powered gameplay."
               link="https://github.com/vmmuthu31/Starkshoot"
             />
           </Col>
